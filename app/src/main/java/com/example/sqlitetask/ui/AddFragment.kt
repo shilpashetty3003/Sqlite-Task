@@ -106,15 +106,15 @@ class AddFragment : Fragment(), View.OnClickListener {
                 }, mYear, mMonth, mDay)
             datePickerDialog.show()
         }
-        if (view === binding.btnDOJ) {
+        if (view == binding.btnDOJ) {
             val datePickerDialog = DatePickerDialog(requireContext(),
                 OnDateSetListener { view, year, monthOfYear, dayOfMonth ->
                     binding.edDOJ.setText(dayOfMonth.toString() + "-" + (monthOfYear + 1) + "-" + year)
                 }, mYear, mMonth, mDay)
             datePickerDialog.show()
         }
-        if (view === binding.btnDOM) {
-            // Get Current Date
+        if (view == binding.btnDOM) {
+
             val datePickerDialog = DatePickerDialog(requireContext(),
                 OnDateSetListener { view, year, monthOfYear, dayOfMonth ->
                     binding.edDOM.setText(dayOfMonth.toString() + "-" + (monthOfYear + 1) + "-" + year)
