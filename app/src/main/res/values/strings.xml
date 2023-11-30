@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SqliteTask</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lbl_name">Enter Name</string>
+    <string name="lbl_phone_number">Enter Mobile Number</string>
+    <string name="lbl_secreatory">Secreatory</string>
+    <string name="lbl_member">Member</string>
+    <string name="lbl_fee">Enter Fee</string>
+    <string name="lbl_deposit_amount">Enter Deposit Amount</string>
+    <string name="lbl_Loan_amount">Enter Loan Amount</string>
+    <string name="lbl_male">Male</string>
+    <string name="lbl_female">Female</string>
+    <string name="lbl_Other">Other</string>
+    <string name="lbl_caste">Enter Caste</string>
+    <string name="lbl_religion">Enter Religion</string>
+    <string name="lbl_category">Enter Category</string>
+    <string name="lbl_aadhar">Enter Aadhar No</string>
+    <string name="lbl_dob">Enter Date Of Birth</string>
+    <string name="lbl_doj">Enter Date Of Joining</string>
+    <string name="lbl_dom">Enter Date Of Marriage</string>
+    <string name="lbl_submit">Submit</string>
+</resources>

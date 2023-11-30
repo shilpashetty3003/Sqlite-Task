@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_40">40dp</dimen>
+    <dimen name="standard_margin">16dp</dimen>
+    <dimen name="light_corner_cuts">18dp</dimen>
+
+</resources>
