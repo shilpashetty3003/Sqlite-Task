@@ -55,18 +55,6 @@ class DBRepository(var context: Context?) {
         return cursor
     }
 
-//    fun update(_id: Long, name: String?, desc: String?): Int {
-//        val contentValues = ContentValues()
-//        contentValues.put(DatabaseHelper.SUBJECT, name)
-//        contentValues.put(DatabaseHelper.DESC, desc)
-//        return database!!.update(DatabaseHelper.TABLE_NAME,
-//            contentValues,
-//            DatabaseHelper._ID + " = " + _id,
-//            null)
-//    }
-//
-//    fun delete(_id: Long) {
-//        database!!.delete(DatabaseHelper.TABLE_NAME, DatabaseHelper._ID + "=" + _id, null)
-//    }
+
 
 }

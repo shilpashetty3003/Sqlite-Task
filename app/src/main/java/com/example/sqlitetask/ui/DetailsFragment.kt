@@ -52,7 +52,6 @@ class DetailsFragment : Fragment() {
                 binding.recyclerView.apply {
                     this.adapter = MemberAdapter(requireContext(), cursor)
                     this.layoutManager = LinearLayoutManager(requireContext())
-
                 }
             }
         }

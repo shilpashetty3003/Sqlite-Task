@@ -131,12 +131,10 @@ class AddFragment : Fragment(), View.OnClickListener {
             } else if (selectRole == "") {
                 showMessage("Select Role")
             } else if (gender == "") {
-
                 showMessage("Select Gender")
             } else {
                 addData()
                 showMessage("Member Added Successfully")
-
                 val fm = fragmentManager
                 fm?.popBackStack()
 
@@ -147,7 +145,7 @@ class AddFragment : Fragment(), View.OnClickListener {
 
     }
 
-    fun showMessage(message: String) {
+    private fun showMessage(message: String) {
         Toast.makeText(requireActivity(), message, Toast.LENGTH_SHORT)
             .show()
     }
